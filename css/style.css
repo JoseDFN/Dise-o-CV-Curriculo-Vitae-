@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    box-sizing: border-box;
+    padding: 0px;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 12px;
+    padding: 20px;
+}
+.division {
+    background-color: #f0f7fd;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    flex: 1 1 300px; /* Ocupa al menos 300px de ancho pero se adapta */
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.subdivision {
+    background-color: #cfdddc;
+    border: 1px solid #aaa;
+    padding: 10px;
+    text-align: center;
+    border-radius: 4px;
+}
+.subdivision img {
+    width: 150px; /* Tamaño de la imagen */
+    height: 150px;
+    border-radius: 50%; /* Hace la imagen circular */
+    object-fit: cover; 
+}
+.subdivision ul{
+    text-align: justify;
+}
+.subdivision h3{
+    text-align: justify;
+}
+
+/* Adaptación a pantallas más pequeñas */
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .division {
+        flex: 1 1 100%; /* Cada división ocupa el 100% del ancho en pantallas pequeñas */
+    }
+}
