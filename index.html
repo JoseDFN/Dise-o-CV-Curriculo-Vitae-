@@ -8,46 +8,83 @@
     <title>Curriculo</title>
 </head>
 <body>
-    <div class="container">
-        <div class="division">
-            <div class="subdivision">
-                <img src="images/foto.png" alt="Foto" class="subimg">
-            </div>
-            <div class="subdivision">
-                <ul class="roboto-medium">Nombre: Jose David</ul>
-                <ul class="roboto-medium">Apellido: Florez Navarrete</ul>
-                <ul class="roboto-medium">Email: jose.david.florez.navarrete@gmail.com</ul>
-                <ul class="roboto-medium">Edad: 18 Años</ul>
-                <ul class="roboto-medium">Direccion: Calle 13N#2-81, Serrania del Hato T4 apto 513</ul>
-            </div>
-        </div>
-        <div class="division">
-            <div class="subdivision">
-                <H2 class="roboto-medium">Estudios</H2>
-                <h3>Basica Primaria: </h3>
-                <ul></ul>
-                <h3>Bachillerato</h3>
-                <h3>Tecnicos</h3>
-            </div>
-            <div class="subdivision">
-                <h2 class="roboto-medium">Cursos</h2>
-                <h3>Nombre del Curso: </h3>
-            </div>
-        </div>
-        <div class="division">
-            <div class="subdivision">
-                <h2 class="roboto-medium">Mis Proyectos</h2>
-            </div>
-            <div class="subdivision">
-                <h2 class="roboto-medium">EXP. Laboral</h2>
-            </div>
-            <div class="subdivision">
-                <h2 class="roboto-medium">Skilss</h2>
-            </div>
-            <div class="subdivision">
-                <h2 class="roboto-medium">Contacto</h2>
-            </div>
-        </div>
-    </div>
+    <table class="tabla1">
+        <tr>
+            <td>
+                <table class="tabla2">
+                    <tr>
+                        <td style="text-align: center;">
+                            <img src="images/photo.jpg" alt="Foto de perfil" class="profile-picture">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="sub-block montserrat">
+                            <ul><strong>Nombre:</strong> José Flórez</ul>
+                            <ul><strong>Apellido:</strong> Flórez Navarrete</ul>
+                            <ul><strong>Email:</strong> jose.david.florez.navarrete@gmail.com</ul>
+                            <ul><strong>Edad:</strong> 18 años</ul>
+                            <ul><strong>Dirección:</strong> Calle 13N #2-81 T4 apto 513</ul>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+            <td >
+                <h2 class="roboto-bold">Estudios</h2>
+                <div class="sub-block">
+                    <ul>Basica Primaria:</ul>
+                    <p>Colegio Franciscano del Virrey Solís,
+                        2011 - 2015</p>
+                    <ul>Basica Secundaria:</ul>
+                    <p>Colegio Franciscano del Virrey Solís,
+                        2016 - 2022</p>
+                    <ul>Tecnicos:</ul>
+                </div>
+                <h2 class="roboto-bold">Cursos</h2>
+                <div class="sub-block">
+                    <ul>Nombre del Curso:</ul>
+                    <p>Campuslands, 2024 <br>Stack Tecnologicio: BackEnd, Java-SpringBoot</p>
+                    <p></p>
+                </div>
+            </td>
+            <td >
+                <h2 class="roboto-bold">Mis proyectos</h2>
+                <div class="sub-block">
+                    <ul>The Chachipun:</ul>
+                    <p>2024<br>Descripcion: Piedra, Papel o Tijera con poder de Escudo a las 2 rondas ganadas<br>Logros Alacanzados: <br>Stack Tec: Python, Persistencia (Json)</p>
+                </div>
+                <h2 class="roboto-bold">Experiencia laboral</h2>
+                <div class="sub-block">
+                    <ul>Empresa o Persona:</ul>
+                    <p>Año/Duracion Proyecto: <br>Logros: <br>Stack Tecnologico: </p>
+                </div>
+                <h2 class="roboto-bold">Skills</h2>
+                <div class="sub-block">
+                    <ul>
+                        Python: ★★☆☆☆
+                    </ul>
+                    <ul>
+                        HTML: ★☆☆☆☆
+                    </ul>
+                    <ul>
+                        CSS: ★☆☆☆☆
+                    </ul>
+                    <ul>
+                        C++: ★☆☆☆☆
+                    </ul> 
+                    <ul>
+                        Ingles: ★★☆☆☆
+                    </ul>
+                </div>
+                <h2 class="roboto-bold">Contacto</h2>
+                <div class="sub-block">
+                    <input type="text" placeholder="Nombre" required class="roboto-regular"><br>
+                    <input type="email" placeholder="Email" required class="roboto-regular"><br>
+                    <input type="tel" placeholder="Teléfono" required class="roboto-regular"><br>
+                    <textarea placeholder="Descripción" rows="4" required class="roboto-regular"></textarea>
+                    <input type="submit" value="Enviar" class="roboto-medium">
+                </div>
+            </td>
+        </tr>
+    </table>
 </body>
-</html>
+</html
