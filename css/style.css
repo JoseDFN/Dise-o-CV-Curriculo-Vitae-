@@ -8,7 +8,6 @@
 }
 /* Estilos generales para el cuerpo */
 body {
-<<<<<<< HEAD
     font-family: "Roboto", sans-serif;
     margin: 0;
     padding: 0;
@@ -17,44 +16,21 @@ body {
 
 /* Foto de perfil */
 .pfp {
-=======
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #ffffff;
-}
-
-/* Foto de perfil */
-.profile-picture {
->>>>>>> 8efe07b2332b22e29407400747745951e086be54
     width: 300px; /* Ajusta el tamaño según tus necesidades */
     height: 300px; /* Asegúrate de que la altura sea igual al ancho para mantener la forma circular */
     border-radius: 50%; /* Esto hará que la imagen se convierta en un círculo */
     object-fit: cover; /* Esto asegura que la imagen se ajuste bien en el contenedor circular */
-<<<<<<< HEAD
     border: 2px solid #EAEAEA; /* Añade un borde blanco para dar el efecto estilo Instagram */
     box-shadow: 0 0 20px #00000033; /* Sombra para destacar la imagen */
-=======
-    border: 2px solid #ffffff; /* Añade un borde blanco para dar el efecto estilo Instagram */
-    box-shadow: 0 0 15px #00000033; /* Sombra para destacar la imagen */
->>>>>>> 8efe07b2332b22e29407400747745951e086be54
 }
 
 /* Estilo para los sub-bloques dentro de cada bloque */
 .sub-block {
-<<<<<<< HEAD
     background-color: #e6f3eb;
     margin-bottom: 10px;
     padding: 10px;
     border-radius: 5px;
     font-family: "Roboto", sans-serif;
-=======
-    background-color: #ffffff;
-    margin-bottom: 10px;
-    padding: 10px;
-    border-radius: 5px;
-    font-family: 'Montserrat', sans-serif; /* Fuente Montserrat */
->>>>>>> 8efe07b2332b22e29407400747745951e086be54
 }
 
 strong {
@@ -68,11 +44,7 @@ ul {
     margin: 0;
 }
 td{
-<<<<<<< HEAD
     background-color: #e8f5f2; 
-=======
-    background-color: #ffffff; 
->>>>>>> 8efe07b2332b22e29407400747745951e086be54
     padding: 20px; width: 30%; 
     vertical-align: top;
     max-width: 30%;
@@ -90,10 +62,7 @@ h2{
 }
 p{
     padding-left: 40px;
-<<<<<<< HEAD
     line-height: 1.5;
-=======
->>>>>>> 8efe07b2332b22e29407400747745951e086be54
 }
 .sub-block input, .sub-block textarea {
     width: 100%; /* Hace que los inputs y textarea ocupen el 100% del ancho del contenedor */
